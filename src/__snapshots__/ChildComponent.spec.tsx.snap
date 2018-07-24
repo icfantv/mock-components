@@ -1,6 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`test the <ChildComponent/> component it should render the child component 1`] = `
+exports[`test the <ChildComponent/> component using react-test-renderer it should render the child component 1`] = `
+<div>
+  Child Component
+</div>
+`;
+
+exports[`test the <ChildComponent/> component using react-testing-library it should render the child component 1`] = `
 <div>
   Child Component
 </div>
