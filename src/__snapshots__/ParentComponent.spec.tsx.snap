@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the <ParentComponent/> component it should deep render the parent component 1`] = `
+<div>
+  <div>
+    Parent Component
+  </div>
+  <div>
+    <div>
+      Child Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test the <ParentComponent/> component it should deep render the parent component again 1`] = `
+<div>
+  <div>
+    Parent Component
+  </div>
+  <div>
+    <div>
+      Child Component
+    </div>
+  </div>
+</div>
+`;
+
+exports[`test the <ParentComponent/> component test the <ParentComponent/> component with stubbing it should shallow render the parent component 1`] = `
+<div>
+  <div>
+    Parent Component
+  </div>
+  <div />
+</div>
+`;

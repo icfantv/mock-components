@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test the <AnotherParentComponent/> component it should deep render another parent component 1`] = `
+<div>
+  <div>
+    Another Parent Component
+  </div>
+  <div>
+    <div>
+      Child Component
+    </div>
+  </div>
+</div>
+`;
